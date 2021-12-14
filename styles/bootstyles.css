@@ -1,0 +1,127 @@
+#tableauBody{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-color: #F4FAFF;
+}
+
+#myHeader{
+    background-color: #4F5D75;
+    position: absolute;
+    z-index: 1;
+    left:0px;
+    right:0px;
+    top:0px;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji;
+	}
+
+#myHeader ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#myHeader li{
+    float: right;
+}
+
+#myHeader li a {
+    display: block;
+    color: #F4FAFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#myHeader li a:hover {
+    background-color: #F4FAFF;
+    color: #6c757d;
+}
+
+#myContent{	
+    padding: 10px;
+    position: absolute;
+    text-align: justify;
+    top: 54px;
+    left: 0px;
+    right: 0px;
+    bottom: 100px;
+    background-color: #F4FAFF;
+    height: 100%;
+    align-content: center;
+	}
+    
+ #myFooter {
+      background-color: #6c757d;
+      color: #F4FAFF;
+      padding: 15px;
+	  text-align: center;
+	  height:30px;
+      position: fixed;
+      bottom: 0px;
+      right:0px;
+     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        
+    }
+
+.myGraph{
+    margin: 10px;
+    border: 1px solid #4F5D75;
+    width: 45%;
+    height: 100%;
+    cursor: auto;
+    transition: .3s;
+    padding: 5px;
+    float: left;
+}
+
+.myGraph:hover{
+    border: 1px solid #416FDB;
+    cursor: auto;
+}
+
+.GraphBox{
+    padding: auto;
+    margin: 5px;
+    
+}
+
+.ImageTile{
+    cursor: pointer;
+    transition: .5s;
+    margin: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.ImageTile-tall:hover{
+    opacity: .7;
+    margin: 3px;
+}
+
+.ImageTile-tall{
+    cursor: pointer;
+    transition: .5s;
+    margin: 5px;
+    width: auto;
+    max-height: 420px;
+}
+
+.ImageTile:hover{
+    opacity: .7;
+    margin: 1px;
+}
+
+.myCaption{
+    text-align: center;
+    margin: 1px;
+    font-size: 1em;
+
+}
+
+.titleLine{
+    font-variant: small-caps;
+    font-size: 1.25em;
+}
+.tableau{
+    color:dodgerblue;
+}

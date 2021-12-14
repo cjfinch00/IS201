@@ -1,0 +1,24 @@
+
+.italics{
+    font-style: italic;
+    font-weight: normal;
+}
+.heading{
+    font-weight: bold;
+    font-style: normal
+}
+a:hover{
+    text-decoration: underline;
+}
+.byu{
+    color:dodgerblue;
+}
+.center{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%
+}
+.id{
+    color: white
+}
